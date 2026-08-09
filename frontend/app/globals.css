@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 210 20% 97%;
+  --foreground: 222 47% 11%;
+}
+
+body {
+  background-color: #F5F7F9;
+}
+
+/* Perforated edge for the stamp/status signature component. */
+.stamp-perforation {
+  background-image: radial-gradient(circle, #F5F7F9 1.1px, transparent 1.1px);
+  background-size: 6px 6px;
+  background-position: center;
+}
